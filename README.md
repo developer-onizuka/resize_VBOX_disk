@@ -1,12 +1,7 @@
 ```
-$ ls -trl
-total 67930144
--rw-------  1 hisayuki  staff  15851323392  3  8 16:47 ubuntu20_2.vdi
-drwx------  6 hisayuki  staff          192  3 27 18:26 Logs
--rw-------  1 hisayuki  staff  18926796800  3 27 21:49 ubuntu20.vdi
--rw-------  1 hisayuki  staff         7671  3 27 21:49 ubuntu20.vbox-prev
--rw-------  1 hisayuki  staff         4488  3 27 21:49 ubuntu20.vbox
--rw-------  1 hisayuki  staff      2097152  3 27 21:54 ubuntu20_30G.vdi
+$ ls -trl *.vdi
+-rw-------  1 xxxxx  staff  18926796800  3 27 21:49 ubuntu20.vdi
+-rw-------  1 √  staff      2097152  3 27 21:54 ubuntu20_30G.vdi
 
 $ VBoxManage clonehd --existing "ubuntu20.vdi" "ubuntu20_30G.vdi" 
 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
